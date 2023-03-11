@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+body{
+    font-family: 'Ropa Sans';
+    margin: 32pt;
+    background-color: #ffffff;
+}
+.menu{
+    background-color: #d2ffad;
+    border: 5px solid black;
+    border-radius: 25px;
+    text-align: center;
+    padding: 32pt;
+}
+.menu2{
+    margin-top: 23px;
+    background: url("img/img3.jpg");
+    background-size: contain;
+    background-position: center;
+    border: 5px solid black;
+    border-radius: 25px;
+    color: #ffffff;
+    text-shadow: 9px 9px 9px black;
+}
+.posts{
+    text-align: center;
+}
+.post{
+    color: black;
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+    margin: 20pt;
+    background-color: white;
+    border: 9px solid black;
+    font-size: 23pt;
+}
+.card{
+    margin-top: 23px;
+    background-color: #ffffff;
+    border: 5px solid black;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10pt;
+    box-shadow: 6px 6px 6px black;
+}
+.x3{
+    font-weight: bold;
+    font-family: 'Ropa Sans';
+    text-justify: auto;
+    width: 10cm;
+    margin-left: 600pt;
+}
+h1{
+    /* font-weight: bold; */
+    font-family: 'Yellowtail';
+    text-justify: auto;
+    /* width: 10cm; */
+    text-align: center;
+    font-size: 42px;
+}
+.menu a{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-family: 'Yellowtail';
+    text-justify: auto;
+    text-align: center;
+    font-size: 45px;
+    margin-right: 23pt;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.menu a.h1{
+    color: #3c7210;
+}
+p .list{
+    font-weight: bold;
+    font-family: 'Ropa Sans';
+    text-justify: auto;
+    width: 10cm;
+    margin-left: 600pt;
+}
+.x2{
+    font-weight: bold;
+    font-family: 'Yellowtail';
+    text-justify: auto;
+}
+.x1{
+    font-weight: bold;
+    font-family: 'Ropa Sans';
+    text-justify: auto;
+    margin-left: 10pt;
+}
+@media screen and (max-width: 732px) {
+    .card{
+        width: 80%;
+    }
+    .post{
+        width: 80%;
+    }  
+}
